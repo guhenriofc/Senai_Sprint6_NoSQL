@@ -1,0 +1,18 @@
+help - mostra todos os commands do mongoDB;
+show dbs - mostra todos os dbs que existe e o armazenamento de cada um;
+use "nomeDoBanco" - direciona para o "nomeDoBanco";
+db."nomeDaCollection.find()" - mostra o conteudo da "nomeDaCollection";
+db."nomeDaCollection.find().pretty()" - mostra o conteudo identado;
+db. - mostra todos os commands que possue o db.;
+db.createCollection(nomeTabela) - cria uma collection (uma tabela);
+show collections - mostra as collections que existe no banco;
+db.dropDatabase() - dropped(exclui) o "nomeDoBanco" que esta em uso;
+db.nomeTabela.insertOne({sobrenome:"", nome:""}) - insere um dado dentro da tabela;
+db.nomeDaCollection.update({"dadoASerAtualizado"}{"Atualização"}) - atualiza um determinado dado da collection;
+db.nomeDaCollection.remove({"dadoASerRemovido"}) - remove o dado selelcionado;
+db.nomeDaCollection.drop - dropped(exclui) a collection selecionada;
+
+
+
+
+
